@@ -1,0 +1,276 @@
+@font-face {
+    font-family: Helvetica-Neue;
+    src: url(../assets/fonts/HelveticaNeue-Medium.ttf);
+}
+body{
+    font-family: Helvetica-Neue;
+}
+
+.navbar{
+    padding: 8px 0px; 
+}
+.navbar-brand img{
+    width: 100%;
+}
+
+.nav-link{
+    font-size: 14px;
+    color: #292929 !important;
+}
+.bg-black{
+    background-color: #292929;
+    border-radius: 50px;
+    padding: 8px 16px !important;
+    color: #fff !important;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 77px;
+    background-color: #FFC017;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+header, .entry-banner{
+    background-color: #FFC017;
+    border-bottom: 1px solid #292929;
+}
+.entry-banner{
+    height: 532px;
+    display: flex;
+    align-items: center;
+}
+.entry-banner .banner-img img{
+    height: auto;
+    width: 100%;
+}
+
+.entry-banner .banner-content{
+    display: flex;
+    flex-direction: column;
+}
+.entry-banner .banner-content .big-title, .entry-banner .banner-content .sub-title{
+    text-align: left;
+    width: 100%;
+}
+.entry-banner .banner-content .big-title{
+    white-space: nowrap;
+}
+.entry-banner .banner-content .sub-title{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+.entry-banner .banner-content a{
+    margin-right: auto;
+    font-size: 20px;
+    background-color: #191919;
+    padding: 8px 20px;
+    border-radius: 50px;
+    width: 213px;
+}
+
+.trend-banners{
+    padding: 40px 0px 16px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.trend-banners .trend-head-title{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+.trend-banners .trend-head-title i{
+    display: flex;
+    font-size: 12px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #292929;
+    border-radius: 30px;
+}
+.trend-banners .trend-head-title span{
+    color: #292929;
+    font-weight: 500;
+}
+.trend-banners .trend-card-content{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.trend-banners .trend-card-content .trend-card-number{
+    font-size: 32px;
+    font-weight: 500;
+    color: #e6e6e6;
+    margin-top: -10px;
+}
+.trend-banners .trend-card-content .trend-post, .main .post .post-left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.trend-banners .trend-card-content .trend-post .trend-sender{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.trend-banners .trend-card-content .trend-post .trend-sender img{
+    width: 20px;
+    height: 20px;
+}
+.trend-banners .trend-card-content .trend-post .trend-sender span, .main .post .post-left .post-sender span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #292929;
+}
+.trend-banners .trend-card-content .trend-post .trend-post-title{
+    font-weight: 700;
+    color: #292929;
+}
+.trend-banners .trend-card-content .trend-post .trend-sender, .trend-banners .trend-card-content .trend-post .trend-post-title{
+    text-decoration: none;    
+}
+.trend-banners .trend-card-content .trend-post .trend-sent-date{
+    font-size: 13px;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.trend-banners .trend-card-content .trend-post .trend-sent-date i.fa-circle, .main .post .post-left .post-sent-date .post-sent-left i.fa-circle{
+    font-size: 2px;
+}
+.trend-banners .trend-card-content .trend-post .trend-sent-date i:last-child, .main .post .post-left .post-sent-date .post-sent-left i:last-child{
+    font-size: 11px;
+    color: #FFC017;
+}
+
+.main{
+    padding: 60px 0px;
+}
+.main .post{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.main .post .post-left{
+    width: 75%;
+}
+.main .post .post-right{
+    width: 25%;
+}
+.main .post .post-right img{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+.main .post .post-left .post-sender{
+    display: flex;
+    gap: 8px;
+}
+.main .post .post-left .post-sender img{
+    width: 20px;
+    height: 20px;
+}
+.main .post .post-left .post-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #292929;
+}
+.main .post .post-left .post-sub-title{
+    color: #757575;
+}
+.main .post .post-left .post-sent-date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .post .post-left .post-sent-date .post-sent-left{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #757575;
+}
+.main .post .post-left .post-sent-date .post-sent-right{
+    display: flex;
+    align-items: center;
+}
+.main .post .post-left .post-sent-date .post-sent-right i{
+    color: #757575;
+}
+.main .post .post-left .post-sent-date .post-sent-left .subject{
+    background-color: #f2f2f2;
+    padding: 2px 8px;
+    border-radius: 20px;
+    color: #292929;
+}
+.main .post .post-left .post-sender, .main .post .post-left .post-title, .main .post .post-left .post-sub-title, .main .post .post-left .post-sent-date .post-sent-left .subject{
+    text-decoration: none;
+}
+.main .discover{
+    margin-bottom: 30px;
+}
+.main .discover .discover-title{
+    font-weight: 500;
+    color: #292929;
+    margin-bottom: 16px;
+}
+.main .discover .discover-links{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+.main .discover .discover-links a{
+    background-color: #f2f2f2;
+    color: #292929;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.main .discover .discover-links a:hover{
+    background-color: #e6e6e6;
+}
+.main .discover .discover-see-more{
+    font-size: 14px;
+    color: #1A8917;
+    text-decoration: none;
+}
+.main .footer-web{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 26px;
+}
+.main .footer-web a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #757575;
+}
+
+footer{
+    background-color: #000;
+    padding: 30px 0px;
+}
+footer .footer-logo{
+    margin-bottom: 20px;
+}
+footer .footer-logo img{
+    width: 145px;
+    height: auto;
+}
+footer .footer-mobile-menu{
+    display: flex;
+    gap: 20px;
+}
+footer .footer-mobile-menu a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+}
